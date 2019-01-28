@@ -1,0 +1,24 @@
+{
+  "name": "vue-nuxt-test",
+  "version": "1.0.0",
+  "description": "My geometric Nuxt.js project",
+  "author": "v4",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.3.6",
+    "cross-env": "^5.2.0",
+    "iview": "^3.2.2",
+    "nuxt": "^2.3.4"
+  },
+  "devDependencies": {
+    "less": "^3.9.0",
+    "less-loader": "^4.1.0",
+    "nodemon": "^1.18.9"
+  }
+}
