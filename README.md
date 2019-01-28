@@ -19,3 +19,18 @@
     'iview/dist/styles/iview.css'
   ]
 `
+# 路由守卫
+##### 1， 在plugins目录下简历route.js
+`
+  export default ({ app }) => {
+    app.router.afterEach((to, from) => {
+      console.log(to.path)
+    })
+  }
+`
+##### 2， 在 nuxt.config.js中添加配置plugins即可
+`
+  plugins: [
+    '~/plugins/route'
+  ]
+`
